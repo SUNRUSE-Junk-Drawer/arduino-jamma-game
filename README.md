@@ -209,3 +209,7 @@ P1 Credit Counter and P2 Credit Counter would normally be connected to mechanica
 #### Lockouts
 
 P1 Credit Lockout and P2 Credit Lockout would control solenoids which block the credit slot to prevent credits being inserted when the game is in particular states.  Few games appear to have used this, and voltages and amperages are not specified.
+
+### Compatibility Notes
+
+This library is likely to conflict with others due to its use of hardware timers, interrupts and the need for precise timing.
