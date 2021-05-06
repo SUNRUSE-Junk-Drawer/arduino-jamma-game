@@ -15,7 +15,7 @@ The connector's pinout is as follows ([source](http://www.cosam.org/projects/sup
 |    | Solder Side                  | Component Side               |    |
 | -- | ---------------------------- | ---------------------------- | -- |
 | A  | Ground                       | Ground                       | 1  |
-| B  | Ground                       | Ground                       | 2  | 
+| B  | Ground                       | Ground                       | 2  |
 | C  | +5V DC from cabinet to game  | +5V DC from cabinet to game  | 3  |
 | D  | +5V DC from cabinet to game  | +5V DC from cabinet to game  | 4  |
 | E  | -5V DC from cabinet to game  | -5V DC from cabinet to game  | 5  |
@@ -75,7 +75,7 @@ Refresh rate: 60Hz
 | Back Porch    | 18             | Lines featuring only horizontal sync (timings unchanged) after active video and before vertical sync.                 |
 | Active Video  | 240            | Lines featuring horizontal sync and active video.                                                                     |
 
-Note that due to the limited speed of the Arduino, a pixel produced by a game based upon this library will occupy multiple display pixels.  
+Note that due to the limited speed of the Arduino, a pixel produced by a game based upon this library will occupy multiple display pixels.
 
 TODO: what is the factor?
 
